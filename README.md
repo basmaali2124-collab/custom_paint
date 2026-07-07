@@ -1,16 +1,51 @@
-# custom_paint
+# Custom UI Practice — Fruits & Plants Shop
 
-A new Flutter project.
+A small Flutter project I made just to practice `CustomPainter`. Instead of
+using regular widgets for buttons and shapes, I drew them myself using
+`Path`.
 
-## Getting Started
+Demo:
+<img width="400" height="551" alt="fruits" src="https://github.com/user-attachments/assets/cd74b9a6-d6ea-4d64-b487-9f300bfd2f7d" />
+<img width="400" height="551" alt="plant" src="https://github.com/user-attachments/assets/c81f42ed-bb35-4a5b-af5d-ec7747f18d25" />
 
-This project is a starting point for a Flutter application.
+## What it does
 
-A few resources to get you started if this is your first Flutter project:
+- Custom-drawn curved buttons and shapes (not the default Flutter widgets)
+- A quantity selector (1 / 5 / 10 pack) with a custom-painted highlight for
+  whichever one is selected
+- Two flows: a fruits shop (home + details) and a plants shop (home +
+  details)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Built with
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter / Dart
+- CustomPainter / CustomPaint
+- google_fonts
+- flutter_rating
+
+## Folder structure
+
+```
+lib/
+└── features/
+    ├── fruits/
+    │   ├── fruits_home/
+    │   └── fruits_details/
+    └── plants/
+        ├── plant_home/
+        ├── plant_details/
+        └── shared_widgets/
+```
+
+## How to run it
+
+```bash
+flutter pub get
+flutter run
+```
+
+## Notes
+
+This is just a UI practice project, no backend or real state management —
+the goal was to get comfortable with drawing custom shapes (arcs, curves)
+with Canvas and Path instead of relying only on built-in widgets.

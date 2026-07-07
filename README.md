@@ -5,7 +5,9 @@ using regular widgets for buttons and shapes, I drew them myself using
 `Path`.
 
 Demo:
+
 <img width="400" height="551" alt="fruits" src="https://github.com/user-attachments/assets/cd74b9a6-d6ea-4d64-b487-9f300bfd2f7d" />
+
 <img width="400" height="551" alt="plant" src="https://github.com/user-attachments/assets/c81f42ed-bb35-4a5b-af5d-ec7747f18d25" />
 
 ## What it does

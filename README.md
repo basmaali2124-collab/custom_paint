@@ -1,4 +1,4 @@
-# Custom UI Practice — Fruits & Plants Shop
+# Flutter CustomPainter UI Practice
 
 A small Flutter project I made just to practice `CustomPainter`. Instead of
 using regular widgets for buttons and shapes, I drew them myself using
